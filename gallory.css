@@ -1,0 +1,91 @@
+#gallery {
+    position: relative center;
+    width: calc(100% - 2em);
+    height: calc((80vw - 2em)/3);
+    margin: 1em ;
+    margin-top: 1em;
+}
+
+#images {
+    background:#eef5f6;
+}
+
+#image {
+    position: relative center;
+    width: 100%;
+    height: calc((80vw - 2em)/3);
+    background:#FFF url(loading.gif) center center no-repeat;
+}
+
+#image img {
+    position: relative center;
+    width: 100%;
+    height: calc((80vw - 2em)/3);
+    top:0px;
+    left:0px;
+}
+
+.imgnav {
+    position: absolute;
+    width: 10vw;
+    height: calc((80vw - 1em)/3);
+    z-index: 7; /*reserve place of layers for images in slider*/
+    outline: none;
+    cursor: pointer;
+}
+
+#thumbwrapper {
+    margin-top:0px;
+    padding:0px 0;
+    width:0;
+    height: 0;
+}
+
+#thumbarea {
+    position:relative;
+    overflow:hidden;
+    width:0;
+}
+
+#thumbs {
+    position:absolute;
+    list-style:none;
+    margin-left:5px;
+    height:100px;
+    width:100%;
+}
+
+#thumbs li {
+    float:left;
+    margin-right:0px;
+    cursor:pointer;
+}
+
+#previmg, #nextimg {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    opacity:0;
+    font-size: 40pt;
+    font-weight: bold;
+}
+
+:root {
+    --width-content: calc(80vw + 2em);
+    --width-margin: calc(100vw - var(--width-content))
+}
+
+#nextimg {
+    right: 10vw;
+}
+
+#previmg:hover {
+    opacity:1;
+    filter:alpha(opacity=100);
+}
+
+#nextimg:hover {
+    opacity:1;
+    filter:alpha(opacity=100);
+}

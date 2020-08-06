@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title> WEB </title>
+    <link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Roboto+Condensed:700'>
+	<link media="screen" href="demo/styles/demo.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css">    
+  </head>
+
+  <body>
+    <div class="container">
+    <div id="board"></div>
+    </div> 
+	
+<div id="player-markup" style="display:none">
+  <div class="head">
+    <div class="box-wall box-wall-1">
+      <div class="box-roof">
+        <div class="hat">
+          <div class="hat__top">
+            <div class="hat__band">
+              <div>
+                <div>
+                  <div>
+                    <div class="hat__roof"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="box-wall box-wall-2">
+      <div class="eyes">
+        <div class="eye"></div>
+        <div class="eye"></div>
+      </div>
+      <div class="mouth"></div>
+    </div>
+    <div class="box-wall box-wall-3">
+	</div>
+    <div class="box-wall box-wall-4">
+	</div>
+  </div>
+</div>
+
+
+
+<div id="box-markup" style="display:none">
+  <div class="box-wall box-wall-1">
+    <div class="box-roof"></div>
+  </div>
+  <div class="box-wall box-wall-2"></div>
+  <div class="box-wall box-wall-3"></div>
+  <div class="box-wall box-wall-4"></div>
+</div>
+    
+        <script src="js/index.js"></script>
+
+
+<div class="controls">
+	<a onclick="sokoban.restart()" class="view-top">Заново</a>
+	<h2>Вращать</h2>
+	<a onclick="sokoban.rotate(false)">Влево </a>
+	<a onclick="sokoban.rotate(true)">Вправо</a>
+	<h2 class="not-low-quality">Размер</h2>
+	<a onclick="sokoban.toggleQuality()" class="not-low-quality">Плоский</a>
+</div>
+
+<div id="success-message" class="hidden">
+	Ты выиграл!
+</div>
+
+  </body>
+</html>

@@ -1,0 +1,80 @@
+
+//added underline but cant remove
+
+/*document.querySelector('.FIN').addEventListener('click', function(u) {
+    if (this.classList.contains('focused_form')){
+    }
+    else {
+        this.classList.add('focused_form');
+    }
+})*/
+
+//parallax
+
+/*function parallax(event) {
+    this.querySelectorAll('.layer').forEach(layer => {
+        let speed = layer.getAttribute('data-speed');
+        layer.style.transform = `translateX(${event.clientX*speed/1000}px)`
+    });
+}
+
+document.addEventListener('mousemove', parallax);*/
+
+//menu transform for phones
+
+/*document.querySelector('.rows-to-cross').addEventListener('click', function(e) {
+    e.preventDefault();
+    if (this.classList.contains('is-active')){
+        this.classList.remove('is-active');
+        document.querySelector('#nav').classList.remove('nav-active');
+        document.body.classList.remove('body-active');
+    }
+    else {
+        this.classList.add('is-active');
+        document.querySelector('#nav').classList.add('nav-active');
+        document.body.classList.add('body-active');
+    }
+})*/
+
+const projectLis = document.getElementById('projectLis');
+const searchBar = document.getElementById('sb');
+let myProjects = [];
+
+searchBar.addEventListener('keyup', (e) => {
+    const searchString = e.target.value.toLowerCase();
+
+    const matchedProjects = myProjects.filter((project) => {
+        return (
+            project.name.toLowerCase().includes(searchString) ||
+            project.language.primary.toLowerCase().includes(searchString)
+        );
+    });
+    showProjects(matchedProjects);
+});
+
+const loadProjects = async () => {
+    try {
+        const res = await fetch('projects.json');
+        myProjects = await res.json();
+        showProjects(myProjects);
+    } catch (err) {
+        console.error(err);
+    }
+};
+
+const showProjects = (projects) => {
+    const htmlString = projects
+        .map((project) => {
+            return `
+            <li class="project">
+                <img src="${project.image_url}"></img>
+                <h2>${project.name}</h2>
+                <p>Language: ${project.language.primary}</p>
+            </li>
+        `;
+        })
+        .join('');
+    projectLis.innerHTML = htmlString;
+};
+
+loadProjects();

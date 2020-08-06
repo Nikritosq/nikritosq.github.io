@@ -1,0 +1,46 @@
+[
+    {
+        "name": "Data-base & AI",
+        "description": "Data-base on Python",
+        "href": "https://github.com/Nikritosq/AI",
+        "image_url": "media/DataArt.png",
+        "language":{
+            "primary":"Python",
+            "semi":""
+        },
+        "text": "Prepearing, cleaning, visualizing data for using and training Neural Network. Operationg with venv and Python libraries, such as SciKit-learn, Pandas, Seaborn and etc."
+    },
+    {
+        "name": "Post - Feed",
+        "description": "Twitter-like App",
+        "href": "https://github.com/Nikritosq/Twitter_feed",
+        "image_url": "media/PostFeed.png",
+        "language":{
+            "primary":"Python",
+            "semi":"JavaScript"
+        },
+        "text": "Single Page Application of a social networks feed. Working with DB, making async requests, parsing new data to API. Principles of requests and responds."
+    },
+    {
+        "name": "Game on pure JS",
+        "description": "Simple game on Javascript",
+        "href": "https://github.com/Nikritosq/JS_Game_",
+        "image_url": "media/computer_eve.png",
+        "language":{
+            "primary":"JavaScript",
+            "semi":""
+        },
+        "text": "Simple game on pure JavaScript and CSS rules. Only front-end."
+    },
+    {
+        "name": "Log-In",
+        "description": "Register & Log-in",
+        "href": "",
+        "image_url": "media/UX_Log-in.png",
+        "language":{
+            "primary":"JavaScript",
+            "semi":""
+        },
+        "text": "Passport Aplication. Managing data with MongoDB. Setting up framework Express.js and Node.js."
+    }
+]

@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Morganite';
+    src: url('Morganite-Thin.woff2') format('woff2'),
+        url('Morganite-Thin.woff') format('woff'),
+        url('Morganite-Thin.svg#Morganite-Thin') format('svg');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 24 24"
+   version="1.1"
+   id="svg2"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="gmail.svg">
+  <defs
+     id="defs9" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview7"
+     showgrid="false"
+     inkscape:zoom="27.812867"
+     inkscape:cx="10.750827"
+     inkscape:cy="10.246768"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <path
+     style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 12,0 A 12,12 0 0 0 0,12 12,12 0 0 0 12,24 12,12 0 0 0 24,12 12,12 0 0 0 12,0 Z m -7.28125,4.71875 14.562501,0 c 1.005674,0 1.820311,0.8146371 1.820311,1.8203126 l 0,10.9218744 c 0,1.005676 -0.814637,1.820314 -1.820311,1.820314 l -14.562501,0 c -1.0056754,0 -1.8203125,-0.814637 -1.8203125,-1.820314 l 0,-10.9218744 C 2.8984375,5.5333871 3.7130746,4.71875 4.71875,4.71875 Z m 0.1582031,1.1992187 0,0.027343 L 12,11.089844 l 7.220702,-5.1445315 0,-0.027343 -14.3437489,0 z m 0,2.7578129 0,8.7851554 14.3437489,0 0,-8.7851554 L 12,13.820311 4.8769531,8.6757816 Z"
+     id="path4137"
+     inkscape:connector-curvature="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <rdf:Description
+         about="https://iconscout.com/legal#licenses"
+         dc:title="gmail"
+         dc:description="gmail"
+         dc:publisher="Iconscout"
+         dc:date="2018-06-22"
+         dc:format="image/svg+xml"
+         dc:language="en">
+        <dc:creator>
+          <rdf:Bag>
+            <rdf:li>Icons8</rdf:li>
+          </rdf:Bag>
+        </dc:creator>
+      </rdf:Description>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
